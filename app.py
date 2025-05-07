@@ -1,6 +1,6 @@
 import os
 import gradio as gr
-from rag_pipeline import SciQueryRAG
+from scripts.rag_pipeline import SciQueryRAG
 
 # Initialize the RAG system
 rag = SciQueryRAG(

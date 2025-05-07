@@ -1,6 +1,6 @@
 # SciQuery LLM
 
-![SciQuery Interface](image.png)
+![SciQuery Interface](assets/app_preview.png)
 
 ## Overview
 
@@ -48,7 +48,7 @@ https://huggingface.co/docs/inference-providers/en/index#authentication
 To collect papers from arXiv:
 
 ```
-python collect_data.py --categories cs.AI --max_results 500 --output_dir data
+python scripts/collect_data.py --categories cs.AI --max_results 500 --output_dir data
 ```
 
 Options:
